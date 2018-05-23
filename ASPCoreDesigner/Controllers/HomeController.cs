@@ -18,7 +18,7 @@ namespace ASPCoreDesigner.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
+            ViewData["Title"] = "About";
             return View();
         }
 
